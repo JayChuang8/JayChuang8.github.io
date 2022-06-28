@@ -4,15 +4,12 @@
   border-radius: 1rem;
 }
 
-.about-mf .about-img {
-  margin-bottom: 2rem;
-}
-
   .about-mf .about-img img {
-    margin-left: 100px;
-    margin-top: 20px;
-    height: 20rem;
-    width: 20rem;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    height: 18rem;
+    width: 18rem;
+    margin-left: 1.2rem;
     border-radius: 1rem;
   }
 
