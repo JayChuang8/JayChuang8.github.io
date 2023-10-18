@@ -1,17 +1,25 @@
+.about-mf {
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  text-align: left; 
+}
+
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
   border-radius: 1rem;
 }
 
-  .about-mf .about-img img {
-    flex-direction: row-reverse;
-    align-items: flex-end;
-    height: 18rem;
-    width: 18rem;
-    margin-left: 1.2rem;
-    border-radius: 1rem;
-  }
+.about-mf .about-img img {
+  flex-direction: row-reverse; 
+  align-items: flex-end;
+  height: 18rem;
+  width: 18rem;
+  margin-left: 1.2rem;
+  border-radius: 1rem;
+}
 
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
@@ -31,7 +39,7 @@
   height: .7rem;
 }
 
-  .skill-mf .progress .progress-bar {
-    height: .7rem;
-    background-color: #0078ff;
-  }
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #0078ff;
+}

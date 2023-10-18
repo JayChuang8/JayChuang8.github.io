@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { InfoPageService } from 'src/app/services/info-page.service';
 import Typed from 'typed.js';
-declare var jQuery: any;
 
 @Component({
   selector: 'app-home',
@@ -26,7 +25,7 @@ export class HomeComponent implements OnInit {
           backSpeed: 30
         });
       }
-    })(jQuery);
+    });
 
   }
 
